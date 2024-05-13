@@ -2,7 +2,9 @@
 
 ## 1. 개요 
 
-### 1-1. 문제정의
+### 1.1 문제정의
+
+### 1.2 프로젝트 목표
 
 ## 2. 데이터
 
@@ -26,6 +28,13 @@
 |...|...|...|...|...|...|
 | Zyvox | Methicillin-Resistant Staphylococcus Aureus Infection | Anonymous | 29-Jul-12 | 10 | "I had a MRSA staph infection when I was 14. I had almost died from the infection and due to my hear... |
 
-### 2.2 추출 데이터
 
-### 2.3 데이터 분석
+데이터는 총 280011 건이며 평점은 총 1-10 점으로 구성되어있다.
+
+
+### 2.2 데이터 분석
+
+
+
+### 2.3 추출 데이터
+
