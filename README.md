@@ -8,7 +8,7 @@
 
 ### 2.1 원시 데이터
 
-[Drugs & Conditions: Patient Voices 데이터셋]([https://www.kaggle.com/datasets/thedevastator/german-2021-patient-reviews-and-ratings-of-docto?resource=download](https://www.kaggle.com/datasets/mukeshdevrath007/drugs-and-conditions-patient-voices-2-8l?rvi=1))
+[Drugs & Conditions: Patient Voices 데이터셋](https://www.kaggle.com/datasets/mukeshdevrath007/drugs-and-conditions-patient-voices-2-8l?rvi=1)
 
 ### 2.2 추출 데이터
 
