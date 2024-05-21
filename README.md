@@ -56,7 +56,42 @@
 num = len(data['Drug Name'].unique())
 print('약물종류:',num,'개')
 ~~~
-<div><img src="images/depression.png" width = "350", height = "250"></div>
+`약물종류: 1022 개`
+총 약물 종류는 1022개이다.
+
+**상위 5개 약물**
+
+<div><img src = "images/topDrug.png" width = "500", height = "400"></div><br/>
+
+리뷰가 많은 싱위 5개의 약물 그래프이다.<br/>
+
+|순위|약물|목적|
+|------|---|---|
+|1|Levonorgestrel|응급 피임약|
+|2|Junel|경구 피임약|
+|3|Nexplanon|가역성 피임약|
+|4|Sertraline|항우울제|
+|5|Escitalopram|항우울제|
+
+위 그래프와 표를 보면 피임약, 항우울제가 가장 많은 리뷰를 가지고있음을 알 수 있다.
+
+**상위 5개 질환**
+
+<div><img src = "images/topCon.png" width = "500", height = "400"></div><br/>
+
+리뷰가 많은 상위 5개 질환 그래프이다.<br/>
+
+|순위|질환|  |
+|------|---|---|
+|1|Birth Control|피임|
+|2|Depression|우울증|
+|3|Anxiety|불안|
+|4|Diabetes, Type 2|당뇨병 2유형|
+|5|Bipolar Disorder|양극성 장애|
+
+상위 5개의 질환을 보면 위 5개 약물의 목적과 대부분 큰 관련이 있는 모습을 보인다.
+
+즉, 상위 5개의 질환과 약물 사이에는 상관관계가 있음을 알 수 있다.
 
 
 ### 2.3 추출 데이터
