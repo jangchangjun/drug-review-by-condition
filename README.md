@@ -51,7 +51,12 @@
 
 
 ### 2.2 데이터 분석
-
+**약물 개수**
+~~~
+num = len(data['Drug Name'].unique())
+print('약물종류:',num,'개')
+~~~
+<div><img src="images/depression.png" width = "350", height = "250"></div>
 
 
 ### 2.3 추출 데이터
