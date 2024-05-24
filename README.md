@@ -93,6 +93,55 @@ print('약물종류:',num,'개')
 
 즉, 상위 5개의 질환과 약물 사이에는 상관관계가 있음을 알 수 있다.
 
+**평점 분포**
+
+<div><img src = "images/rating.png" width = "500", height = "400"></div><br/>
+
+1 - 10점으로 이뤄진 평점을 그래프로 표현하였다.<br/>
+10(최상)점과 1(최하)점이 1,2순위를 이루고 있고 긍정적 평이 더 많은 것을 알 수 있다.
+
+**리뷰 글자 수**
+
+<div><img src = "images/review.png" width = "500", height = "400"></div><br/>
+
+약에 대한 사용자들의 리뷰 글자 수를 보여주는 그래프이다.<br/>
+0-10000자까지 분포해있고 0-1000자 사이에 가장 많이 분포해있음을 알 수 있다.
+
+**긍 부정 분류**
+
+이 프로젝트에선 5점 이하를 부정데이터, 6점 이상을 긍정데이터로 잡아 분석을 진행하였다.<br/>
+
+~~~
+data['rating'] = data['rating'].apply(lambda x: "negative" if x=<5.0
+                                      else "positive")
+~~~
+  
+분류 후 각각의 수치를 살펴보면 <br/>
+
+<div><img src="images/RatingClass.png" width = "250", height = "100"></div>
+
+긍정데이터가 약 16만건, 부정데이터가 약 9만건이 있음을 알 수 있다.
+
+
+이후 보기쉽게 원 그래프를 활용해 수치를 표현해보면
+
+<div><img src = "images/pie.png" width = "500", height = "500"></div><br/>
+
+긍정데이터가 전체 데이터의 63.5%, 부정데이터는 36.5%를 차지하고 있음을 알 수 있다.
 
 ### 2.3 추출 데이터
+
+이 프로젝트에선 전체 데이터셋에서 대중적인 정신질환 5가지를 선정해 감성분석을 진행하고자 하였다.
+
+선정된 정신질환은 아래 5가지의 질환이다.
+
+|질환|  |
+|---|---|
+|Schizophrenia|조현병|
+|Depression|우울증|
+|Anxiety|불안|
+|Post Traumatic Stress DisorderOff-label|외상 후 스트레스(PTSD)|
+|Bipolar Disorder|양극성 장애|
+
+
 
