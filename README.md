@@ -143,5 +143,8 @@ data['rating'] = data['rating'].apply(lambda x: "negative" if x=<5.0
 |Post Traumatic Stress DisorderOff-label|외상 후 스트레스(PTSD)|
 |Bipolar Disorder|양극성 장애|
 
+총 추출 데이터는 36710건이며, 총 약물 종류는 79개 이다.
 
+**추출 데이터의 평점 분포**
+<div><img src = "images/pie.png" width = "500", height = "500"></div><br/>
 
