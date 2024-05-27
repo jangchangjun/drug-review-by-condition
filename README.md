@@ -146,5 +146,14 @@ data['rating'] = data['rating'].apply(lambda x: "negative" if x=<5.0
 총 추출 데이터는 36710건이며, 총 약물 종류는 79개 이다.
 
 **추출 데이터의 평점 분포**
-<div><img src = "images/pie.png" width = "500", height = "500"></div><br/>
+<div><img src = "images/mentals_rating.png" width = "500", height = "500"></div><br/>
+
+추출 데이터의 평점 분포를 보면 기존 원본데이터와 유사하게 10,1점이 순서대로 제일 많이 분포해있으며, <br/>
+부정데이터보다 긍정데이터가 더 많음을 알 수 있다.
+
+이후 원 그래프를 활용해 수치를 표현했을 떄
+
+<div><img src = "images/metalsPie.png" width = "500", height = "500"></div><br/>
+
+긍정데이터가 67.9%, 부정데이터는 32.1%를 차지하고 있음을 알 수 있다.
 
