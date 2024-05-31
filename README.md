@@ -66,7 +66,7 @@ print('약물종류:',num,'개')
 
 **상위 10개 약물**
 
-<div><p align='center'><img src="images/topdrug.png" width = "700", height = "500"></p></div>
+<div><p align='center'><img src="images/topdrug.png" width = "700", height = "550"></p></div>
 
 |순위|약물명| 목적  |
 |-|--------|--------|
@@ -86,7 +86,7 @@ print('약물종류:',num,'개')
 
 **상위 10개 질환**
 
-<div><p align='center'><img src="images/topcondition.png" width = "700", height = "500"></p></div>
+<div><p align='center'><img src="images/topcondition.png" width = "700", height = "550"></p></div>
 
 |순위|질환명||
 |-|--------|--------|
