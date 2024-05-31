@@ -6,7 +6,7 @@
 정신 질환에 대한 관심이 대두되는 요즘 늘어난 관심도에 비례해 정신 질환자의 수도 점점 늘어나고 있다.
 2020년 전세계를 강타한 코로나 팬데믹 이후 이러한 추세는 더욱 강화되고 있는데[[1]](https://www.chosun.com/economy/weeklybiz/2022/10/13/RJ6RRGN5Q5CNZLTIZSBUQT7Y64/)
 기존 정신질환을 가지고 있던 사람들은 제 때 치료를 받지못해 더욱 심화되는 문제에 직면하게 되었다.
-<div><p align='center'><img src="images/depression.png" width = "350", height = "250"></p></div>
+<div><p align='center'><img src="images/depression.png" width = "450", height = "300"></p></div>
 세계보건기구에서는 전세계 약 10억명 정도는 정신 장애를 앓고 있다고 추정했으며 이는 2020년 펜데믹 첫 해에 비해 25%가 증가헀다고 밝혔다.
 이를 보고 몇몇은 코로나 펜데믹에 이은 정신질환 펜데믹의 등장이다라는 의견을 제시하였다.<br/>
 
@@ -68,27 +68,51 @@ print('약물종류:',num,'개')
 
 <div><p align='center'><img src="images/topdrug.png" width = "700", height = "500"></p></div>
 
-|순위|약물이름| 목적  |
+|순위|약물명| 목적  |
 |-|--------|--------|
 |1|Levonorgestrel|응급 피임약|
 |2|Junel|경구 피임약|
 |3|Nexplanon|여성 피임 임플란트|
-|4|Sertraline|우울제|
+|4|Sertraline|항우울제|
 |5|Escitalopram|항우울제|
 |6|Phentermine|식욕 억제제|
 |7|Bupropion|항우울제|
 |8|Plan B|긴급 피임약|
 |9|Yaz 28|경구 피임약|
-|10|Venlafaxine|항우울|
+|10|Venlafaxine|항우울제|
 
 데이터의 구성을 알아보기 위해 상위 10개 약물과 그 목적을 막대그래프로 그려 표현하였다.
 주로 피임 목적의 약과 항우울제의 리뷰가 상위에 분포해있음을 알 수 있다.
 
+**상위 10개 질환**
 
+<div><p align='center'><img src="images/topcondition.png" width = "700", height = "500"></p></div>
 
+|순위|질환명||
+|-|--------|--------|
+|1|Birth Control|피임|
+|2|Depression|우울증|
+|3|Anxiety|불안장애|
+|4|Diabetes, Type 2|제 2형 당뇨병|
+|5|Bipolar Disorder|조울증|
+|6|Emergency Contraception|긴급 피임|
+|7|Weight Loss (Obesity/Overweight)|체중감소(비만/과체중)|
+|8|ADHD|주의력결핍 과잉행동장애|
+|9|Pain|통증|
+|10|Insomnia|불면증|
 
-  
-선정된 정신질환은 아래 5가지의 질환이다.
+리뷰가 많은 상위 10개의 질환을 그래프에서 나타냈을 때, 위 상위 10개의 약물과 관계가 있는 질환(피임, 정신장애)들이 대부분을 차지한 것으로 나타나 이는 위 두 그래프의 결과가 상관관계에 있다고 할 수 있다.
+
+**평점 분포**
+
+<div><p align='center'><img src="images/rating.png" width = "700", height = "500"></p></div>
+
+위 그래프는 데이터의 평점 분포를 그래프로 표현한 것이다.
+그래프를 살펴봤을 때 10점과 1점이 가장 많은 것을 알 수 있고, 긍정적인 평이 더 많은 것을 알 수있다.
+
+### 추출 데이터
+이 프로젝트에선 데이터 시각화를 통해 유의미한 데이터라고 판단된 정신질환과 관련된 데이터를 추출하고자 했다.
+위 데이터셋의 정신질환 중 분석 데이터의 양을 늘리기 위해 5가지의 질환을 선정하였고 선정된 정신질환은 아래 5가지의 질환이다.
 
 |질환|  |
 |---|---|
