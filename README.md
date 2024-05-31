@@ -37,7 +37,50 @@
 |--------|--------|--------|------|------|----|
 |약물 이름|질환|사용자|작성일|평점|리뷰|
 
+- 데이터 예시
 
+
+|Drug Name|Condition|User|Date|Rating|Content|
+|--------|--------|--------|------|------|----|
+|Abilify|Bipolar Disorder	|Jay|9-Jun-20|8|"I just started this Abilify at a 5mg dose and...|
+|Abilify|Bipolar Disorder|Andrea|24-Aug-20|8|"I've been struggling with bipolar II my whole...|
+|Abilify|Bipolar Disorder|Ben|14-Dec-19	|10|"Been on every BiPolar med known. Finally tri...|
+|...|...|...|...|...|...|
+|60-Second Fluoride Foam|Prevention of Dental Caries|Kurt|13-Mar-15|9|"Using in trays post-radiation, easier to fill...|
+|60-Second Fluoride Foam|Prevention of Dental Caries|Holly|26-Oct-20|8|Denta 5000 Plus (fluoride)"I'm wondering if it...|
+
+데이터는 총 280012건이며 평점은 1-10점으로 이루어져있다.
+
+- 데이터 부가정보
+  
+**약물 종류**
+
+~~~
+num = len(data['Drug Name'].unique())
+print('약물종류:',num,'개')
+~~~
+
+`약물종류: 1022 개`
+
+데이터의 총 약물 종휴는 1022개이다.
+
+**상위 10개 약물**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 선정된 정신질환은 아래 5가지의 질환이다.
 
 |질환|  |
