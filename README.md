@@ -116,11 +116,11 @@ print('약물종류:',num,'개')
 
 |질환|  |
 |---|---|
-|Schizophrenia|조현병|
+|ADHD|주의력결핍 과잉행동장애|
 |Depression|우울증|
 |Anxiety|불안|
 |Post Traumatic Stress DisorderOff-label|외상 후 스트레스(PTSD)|
 |Bipolar Disorder|양극성 장애|
 
-총 추출 데이터는 36710건이며, 총 약물 종류는 79개 이다.
+총 추출 데이터는 44420건이며, 총 약물 종류는 96개 이다.
 
