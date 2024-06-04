@@ -1,4 +1,4 @@
-## MobileBert를 활용한 질병 별 약품 사용자 리뷰 감성분석 프로젝트
+![image](https://github.com/jangchangjun/drug-review-by-condition/assets/100849835/c82acd76-26e6-446e-af05-18e64083e8bb)## MobileBert를 활용한 질병 별 약품 사용자 리뷰 감성분석 프로젝트
 
 ## 1. 개요 
 
@@ -150,14 +150,21 @@ print('약물종류:',num,'개')
 
 **평점 분포**
 
-<div><p align='center'><img src="images/mentals_rating.png" width = "700", height = "550"></p></div>
+<div><p align='center'><img src="images/MentalRating.png" width = "700", height = "550"></p></div>
 
-추출 데이터의 평점 분포표이다. 평점 분포또한 기존 데이터의 그래프와는 큰 차이가 없으며, 부정적 리뷰가 긍정적 리뷰보다 
-조금 더 많이 있음을 알 수 있다.
+추출 데이터의 평점 분포 그래프이다. 평점 분포또한 기존 데이터의 그래프와 큰 차이는 없지만, 부정적 리뷰가 긍정적 리뷰보다 
+조금 더 많이 분포하고 있음을 알 수 있다.
 
 **리뷰 길이**
 
-<div><p align='center'><img src="images/review.png" width = "700", height = "550"></p></div>
+<div><p align='center'><img src="images/Reivew.png" width = "700", height = "550"></p></div>
+
+추출 데이터의 리뷰 글자 수 분포 그래프이다. 유의미한 데이터만을 추출하기 위해 0-3000자 구간에서 2000자까지 머 구간을 줄이고..
+리뷰 글자 수를 나타낸결과 700-800자 사이의 분포가 가장 많음을 알 수 있당.
+
+## 3. 학습데이터 구축
+
+### 3.1 리뷰의 긍부정 분류
 
 
 
