@@ -1,4 +1,4 @@
-![image](https://github.com/jangchangjun/drug-review-by-condition/assets/100849835/c82acd76-26e6-446e-af05-18e64083e8bb)## MobileBert를 활용한 질병 별 약품 사용자 리뷰 감성분석 프로젝트
+## MobileBert를 활용한 질병 별 약품 사용자 리뷰 감성분석 프로젝트
 
 ## 1. 개요 
 
