@@ -165,7 +165,7 @@ print('약물종류:',num,'개')
 
 ### 3.1 리뷰의 긍부정 분류
 
-<div><p align='center'><img src="images/pie.png" width = "550", height = "550"></p></div>
+<div><p align='center'><img src="images/Pie.png" width = "550", height = "550"></p></div>
 
 이 프로젝트에선 1-10점 사이의 평점에서 3점 이하를 부정, 8점이상을 긍정 데이터로 지정하였으며, 나머지 데이터는 중립 데이터로써 
 설정하였다.
