@@ -203,6 +203,18 @@ print('약물종류:',num,'개')
 
 ### 4.1 MobileBert 사용 결과
 
+<div><img src="images/Validation.png" width = "400", height = "200"></div>
+
+<div><img src="images/Loss.png" width = "700"></div>
+
+<div><img src="images/Accuracy.png" width = "700"></div>
+
+|step|0|1|2|3|
+|:---:|:---:|:---:|:---:|:---:|
+|loss|67993.3|0.23|0.14|0.09|
+|accuracy|0.89|0.922|0.922|0.924|
+
+
 
 ### 4.2 전체 분석 데이터의 결과값
 
