@@ -205,9 +205,9 @@ print('약물종류:',num,'개')
 
 <div><img src="images/Validation.png" width = "400", height = "200"></div>
 
-<div><img src="images/Loss.png" width = "700"></div>
+<div><img src="images/Loss.png" ></div>
 
-<div><img src="images/Accuracy.png" width = "700"></div>
+<div><img src="images/Accuracy.png"></div>
 
 |step|0|1|2|3|
 |:---:|:---:|:---:|:---:|:---:|
