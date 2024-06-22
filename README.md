@@ -218,7 +218,7 @@ print('약물종류:',num,'개')
 
 ### 4.2 전체 분석 데이터의 결과값
 
-<div><p align='center'><img src="images/accurracy.png" width = "700", height = "550"></p></div>
+<div><p align='center'><img src="images/accurracy.png"></p></div>
 
 전체 분석데이터에 모델을 적용한 결과 정확도는 0.809가 나왔다.
 예상한 것보단 낮은 수치였으며 이는 샘플 데이터 분석 결과값에 비해서도 낮게 나왔다 할 수 있다.
